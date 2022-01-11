@@ -19,6 +19,7 @@ export default function RoundedImg(props) {
         src={props.src}
         style={{ borderRadius: props.borderRadius }}
         className="round-img"
+        alt="hello"
       />
     </>
   );

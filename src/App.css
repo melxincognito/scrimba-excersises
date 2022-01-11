@@ -6,3 +6,9 @@
   max-width: 50%;
   width: 150px;
 }
+
+.border {
+  border: 2px solid purple;
+  border-radius: 5px;
+  padding: 10px;
+}
