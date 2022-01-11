@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import RoundedImg from "./components/RoundedImg";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <RoundedImg
+        src="https://picsum.photos/id/237/300/300"
+        borderRadius="10px"
+      />
+      <RoundedImg
+        src="https://i.pinimg.com/originals/d7/1d/66/d71d663c070a4b26ecfd6f70a92c37cb.jpg"
+        borderRadius="15px"
+      />
     </div>
   );
 }
