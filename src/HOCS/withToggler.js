@@ -5,6 +5,9 @@ import React, { Component } from "react";
 // and supercharges it by giving it extra capabilities
 
 class Toggler extends Component {
+  //toggler state being initially set to false is going to
+  //automatically hide your menu on screen start and automatically
+  //have the favorites switch set to off on start
   state = {
     on: false,
   };
